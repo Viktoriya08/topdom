@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <!-- Head -->
+    <head>
+
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New Project</title>
+        <!-- / Meta -->
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles/style.min.css">
+        <!-- / Styles -->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+    </head>
+    <!-- / Head -->
+
+    <!-- Body -->
+    <body>
+
+
+<div class="main-wrapper">
+
+    <!--header  -->
+ 
+    <!-- / header  -->
+
+    <div class="container">
+        <ol>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="articles.html">Статьи</a></li>
+            <li><a href="article.html">Статья</a></li>
+            <li><a href="detal.html">Карточка товара</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="404.html">404</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="search.html">Поиск</a></li>
+        </ol>
+    </div>
+
+
+  
+</div>
+
+<!-- modall-call -->
+<div class="modal modal-call">
+    <div class="modal-call__box">
+        <div class="modal-call__title modal-title">
+            <h3>Оставьте свой номер телефона</h3>
+            <button class="modal-call__btn modal-title__btn"></button>
+        </div>
+        <p>И наш менеджер вам перезвонит!</p>
+
+        <form action="#" class="modal-call__form">
+
+            <div class="input-box">
+                <span>* Заполните поле</span>
+                <input type="text" name="name" placeholder="Ваше имя" required maxlength="25">
+            </div>
+
+            <div class="input-box">
+                <span>* Заполните поле</span>
+                <input class="tell-input" type="phone" name="phone" placeholder="Ваш телефон" required>
+            </div>
+
+            <div class="input-box input-box--city">
+                <select name="city" id="#" class="input-box__select">
+                    <option value="Город">Казань</option>
+                    <option value="Город">Город</option>
+                    <option value="Город">Город</option>
+                    <option value="Город">Город</option>
+                </select>
+            </div>
+
+            <div class="input-box input-box--check">
+                <input class="input-box__custom-check" type="checkbox" name="politic">
+                <label class="input-box__politic" for="politic"> Я согласен с <a href="#">политикой конфиденциальности</a> </label>
+            </div>
+            <input class="link-btn link-btn--long" type="submit" value="Получить">
+        </form>
+    </div>
+    
+</div>
+<!-- / modall-call -->
+
+<!-- modal-order -->
+<div class="modal modal-order" data-simplebar>
+    <div class="modal-order__box">
+        <div class=" modal-title">
+            <h3>Узнайте стоимость вашего дома</h3>
+            <button class="modal-title__btn modal-order__btn"></button>
+        </div>
+        <form action="#" class="order">
+
+            <div class="order__step active">
+                <div class="order__step1">
+                    <p>Скольки этажный дом Вы бы хотели?</p>
+                    
+                    <div class="order__step1-box">
+                        <label class="label-box">
+                            
+                            <div class="label-box__img">
+                                <img src="images/house/house-2.jpg" alt="фото одноэтажного дома">
+                            </div>
+                            <input class="label-box__checkbox" type="radio" name="floor">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Одноэтажный</span>
+                        </label>
+
+                        <label class="label-box">
+                            <div class="label-box__img">
+                                <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                            </div>
+                            <input class="label-box__checkbox" type="radio" name="floor">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Двухэтажный</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order__step">
+                <div class="order__step2">
+                    <p>Какой площади планируете строить дом?</p>
+
+                    <div class="order__step2-box">
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="square">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">от 80 м<span class="label-box__name-small">2</span> до 100 м<span class="label-box__name-small">2</span></span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="square">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">от 100 м<span class="label-box__name-small">2</span> до 130 м<span class="label-box__name-small">2</span></span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="square">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">от 130 м<span class="label-box__name-small">2</span> до 160 м<span class="label-box__name-small">2</span></span>
+                        </label>
+
+                        <label class="label-box">
+                            <input class="label-box__checkbox" type="radio" name="square">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">от 160 м<span class="label-box__name-small">2</span> до 200 м<span class="label-box__name-small">2</span></span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="square">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Более 200 м<span class="label-box__name-small">2</span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order__step">
+                <div class="order__step3">
+                    <p>Сколько спальных комнат Вам нужно?</p>
+
+                    <div class="order__step3-img">
+                        <div class="order__step3-box">
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">2 спальные комнаты</span>
+                            </label>
+
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">3 спальные комнаты</span>
+                            </label>
+
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">4 спальные комнаты</span>
+                            </label>
+
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">Больше 4 спальных комнат</span>
+                            </label>
+                        </div>
+                        <div class="order__img">
+                            <img src="images/house/house-5.jpg" alt="фото спальной комнаты">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order__step">
+                <div class="order__step4">
+                    <p>Нужен ли Вам участок?</p>
+
+                    <div class="order__step3-img">
+                        <div class="order__step3-box">
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">Нет, есть участок</span>
+                            </label>
+
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">Нет, я сам найду участок</span>
+                            </label>
+
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">Да, нужно подобрать участок</span>
+                            </label>
+
+                            <label class="label-box label-box--line">
+                                <input class="label-box__checkbox" type="radio" name="bed">
+                                <span class="label-box__input"></span>
+                                <span class="label-box__name">Мне нужен готовый дом на участке</span>
+                            </label>
+                        </div>
+                        <div class="order__img">
+                            <img src="images/house/house-5.jpg" alt="фото спальной комнаты">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="order__step5">
+                <p>Когда Вы готовы начать строительство?</p>
+
+                <div class="order__step5-box">
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">В течение 1 месяца</span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name"> В течении 3-х месяцев</span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">В течение полугода</span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">В следующем году</span>
+                    </label>
+
+                </div>
+            </div> -->
+
+            <!-- <div class="order__step6">
+                <p>В каком городе планируете строительство?</p>
+
+                <div class="input-box input-box--city">
+                    <select name="city" id="#" class="input-box__select">
+                        <option value="Казань">Казань</option>
+                        <option value="Москва">Москва</option>
+                        <option value="Санкт-Петербург">Санкт-Петербург</option>
+                        <option value="другой город в Татарстане">другой город в Татарстане</option>
+                        <option value="другой город в Московской области">другой город в Московской области</option>
+                        <option value="другой город в Ленинградской области">другой город в Ленинградской области</option>
+                    </select>
+                </div>
+            </div> -->
+            
+            <!-- <div class="order__step7">
+                <p>Скольки этажный дом Вы бы хотели?</p>
+                
+                <div class="order__step7-box">
+                    <label class="label-box">
+                        
+                        <div class="label-box__img">
+                            <img src="images/house/house-2.jpg" alt="фото одноэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 1</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 2</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 3</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 4</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 5</span>
+                    </label>
+                </div>
+            </div> -->
+
+            <div class="order__step">
+                <div class="order__step-end">
+                    <div class="order__step-end-text">
+                        <p>
+                            Под Ваши критерии подходит 27 проектов домов. Оставьте заявку для подробной консультации и записи
+                            на просмотр домов и участков!
+                        </p>
+                        <span>
+                            Наш менеджер свяжется с Вами, чтобы ответить на ваши вопросы, рассказать подробнее о предложении
+                            и подтвердить запись на просмотр готовых домов которые вам подходят
+                        </span>
+                    </div>
+                    <div class="order__step-end-order">
+
+                        <div class="input-box">
+                            <span>* Заполните поле</span>
+                            <input class="tell-input" type="phone" name="phone" placeholder="Ваш телефон" required>
+                        </div>
+
+                        <div class="input-box">
+                            <span>* Заполните поле</span>
+                            <input type="text" name="name" placeholder="Ваше имя" required maxlength="25">
+                        </div>
+            
+                        <div class="input-box">
+                            <span>* Заполните поле</span>
+                            <input type="email" name="email" placeholder="Введите ваш e-mail" required maxlength="40">
+                        </div>
+
+                        <input class="link-btn link-btn--long" type="submit" value="Оставить заявку">
+                    </div>
+                </div>
+            </div>
+
+            <div class="order__box">
+                <div class="order__steps">
+                    <p>Готово: <span class="order__steps-percent">0</span> <span>%</span></p>
+                    <div class="order__line">
+                        <span class="order__line-fill"></span>
+                    </div>
+                </div>
+                <div class="order__btns">
+                    <button class="btn order__btn--prev"></button>
+                    <button class="btn btn--long order__btn--next">Далее</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!--/ modal-order -->
+
+<!-- modal-end -->
+<div class="modal modal-end">
+    <div class="modal-end__box">
+        <div class="modal-title">
+            <div class="modal-title__main">
+                <span>email@email.com</span>
+                <h3>Благодарим Вас за внимание к компании ТОПДОМ</h3>
+            </div>
+            <button class="modal-title__btn modal-end__btn"></button>
+        </div>
+        <p>
+            Ваше обращение №<span class="modal-title--bold">11111</span> по теме №Подписка на акции и специальные предложения" <span class="modal-title--green">успешно доставлено! </span> 
+        </p>
+        <p>
+            Мы свяжемся с Вами по почте <span class="modal-title--bold">email@email.com</span> в ближайшее время и будем рады предоставить всю необходимую информацию. 
+        </p>
+        <p>
+            А пока Вы можете познакомиться с нашей деятельносью через соцсети:
+        </p>
+        <div class="modal__social">
+            <a href="#" target="_blank">
+                <svg width="36" height="36" viewBox="0 0 36 36">
+                    <use xlink:href="svg-sprite/svg-sprite.svg#social-1"></use>
+                </svg>
+            </a>
+            <a href="#" target="_blank">
+                <svg width="38" height="38" viewBox="0 0 38 38">
+                    <use xlink:href="svg-sprite/svg-sprite.svg#social-2"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+<!--/ modal-end -->
+
+<!-- modal-review -->
+<div class="modal modal-review">
+    <div class="modal-review__box">
+        <div class="modal-title">
+            <div class="modal-title__main">
+                <h3>Будем рады вашему отзыву</h3>
+            </div>
+            <button class="modal-title__btn modal-review__btn"></button>
+        </div>
+        <form action="#" class="review-form">
+            <div class="input-box">
+                <span>* Заполните поле</span>
+                <label class="input-box__comment" for="comment">Комментарии</label>
+                <textarea name="comment" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="input-file">
+                <label for="myfile" class="label">Прикрепить файлы</label>
+                <input type="file" class="my" id="myfile" name="myfile" multiple>
+            </div>
+
+            <input class="link-btn link-btn--long" type="submit" value="Оставить комментарий">
+            
+        </form>
+    </div>
+</div>
+<!-- / modal-review -->
+
+
+
+        <!-- Scripts -->
+        <script src="scripts/script.min.js"></script>
+        <!-- / Scripts -->
+
+    </body>
+    <!-- / Body -->
+
+</html>

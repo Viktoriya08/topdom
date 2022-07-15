@@ -1,0 +1,2117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <!-- Head -->
+    <head>
+
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New Project</title>
+        <!-- / Meta -->
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles/style.min.css">
+        <!-- / Styles -->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+    </head>
+    <!-- / Head -->
+
+    <!-- Body -->
+    <body>
+
+
+<div class="main-wrapper">
+
+    <!--header  -->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="Логотип строительной компании ТопДом.рф">
+                    </a>
+                </div>
+
+                <button class="header__burger burger">
+                    <span></span>
+                </button>
+
+                <!-- <div class="header__nav-shadow"> -->
+                    <div class="header__box nav-mobile">
+                        <div class="header__social">
+                            <h4>Мы онлайн</h4>
+                            <div class="social-imgs">
+                                <a href="#" target="_blank">
+                                    <div class="social-imgs__img">
+                                        <svg width="29" height="29" viewBox="0 0 29 29">
+                                            <use xlink:href="svg-sprite/svg-sprite.svg#online1"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <div class="social-imgs__img">
+                                        <svg width="30" height="29" viewBox="0 0 30 29">
+                                            <use xlink:href="svg-sprite/svg-sprite.svg#online2"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <div class="social-imgs__img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30">
+                                            <use xlink:href="svg-sprite/svg-sprite.svg#online3"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__call">
+                            <a href="tel:88432601066">8 843 260 10 66</a>
+                            <button class="btn btn--blue js-call">Заказать звонок</button>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="header__nav-list">
+                                <li><a href="/about.html">О компании</a></li>
+                                <li class="active"><a href="#">Проекты</a></li>
+                                <li><a href="#">Портфолио и отзывы</a></li>
+                                <li><a href="404.html">Акции</a></li>
+                                <li><a href="/contacts.html">Контакты</a></li>
+                                <li><a href="#">Технологии</a></li>
+                                <li><a href="#">Статьи</a></li>
+            
+                            </ul>
+                            <div class="header__nav-icons">
+                                <div class="search">
+                                    <svg width="29" height="29" viewBox="0 0 29 29">
+                                        <use xlink:href="svg-sprite/svg-sprite.svg#header-icon-1"></use>
+                                    </svg>
+                                </div>
+
+                                <a href="#">
+                                    <svg width="29" height="29" viewBox="0 0 29 29">
+                                        <use xlink:href="svg-sprite/svg-sprite.svg#header-icon-2"></use>
+                                    </svg>
+                                </a>
+                                
+                            </div>
+                        </nav>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </header>
+    <!-- / header  -->
+
+    <div class="wrapper-content">
+        <!-- first -->
+        <section class="first" style="background-image: url(images/first-img.jpg);">
+            <div class="container">
+
+                <h1 class="title">
+                    Строительная компания Топ Дом это:
+                </h1>
+
+                <ul class="first-list">
+                    <li>Более 100 мастеров строителей в штате компании</li>
+                    <li>500 котеджей построено за 10 лет без гарантийных случаев</li>
+                    <li>Своя выставка из 100 котеджей в одном поселке</li>
+                </ul>
+
+                <div class="first__btns">
+                    <button class="btn js-order">Узнать стоимость дома</button>
+                    <button class="btn btn--transparent">Поможем в оформлении ипотеки</button>
+                </div>
+                
+
+                <div class="benefits swiper">
+                    <ul class="benefits__list swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="benefits__item">
+                                <p>Фиксированная цена во время строительства</p>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="benefits__item">
+                                <p>Строим с гарантией 8 лет по договору</p>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="benefits__item">
+                                <p>Бесплатное проектирование</p>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="benefits__item">
+                                <p>Технический контроль на всех этапах строительства</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="benefits__btn-prev">
+                        <svg width="13" height="15" viewBox="0 0 13 15">
+                            <use xlink:href="svg-sprite/svg-sprite.svg#arrow-slider"></use>
+                        </svg>
+                    </button>
+                    <button class="benefits__btn-next">
+                        <svg width="13" height="15" viewBox="0 0 13 15">
+                            <use xlink:href="svg-sprite/svg-sprite.svg#arrow-slider"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- / first -->
+
+        <!-- examples -->
+        <section class="examples">
+            <div class="container">
+
+                <h2 class="subtitle">Мы строим все типы домов</h2>
+
+                <div class="net">
+                    <div class="net__elem">
+                            <!-- карточка товара -->
+                        <div class="card">
+
+                            <div class="card__img-box labls">
+                                <a href="/detal.html">
+                                    <div class="card__img">
+                                        <img src="images/house/house-1.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+
+                                <div class="card__labls labls__box">
+                                    <a href="#">
+                                        <div class="labls__el">Газобетон</div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="labls__el">Керамические блоки</div>
+                                    </a>
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Газосиликат</div>
+                                    </a>
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Керамзитобетон</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card__box">
+                                <div class="card__name">
+                                    <a href="#">
+                                        <p>Кирпичные дома</p>
+                                    </a>
+                                </div>
+                                <p class="card__price">от <span>00 000</span>  руб/м2</p>
+                                <div class="card__link">
+                                    <a class="link-btn" href="#">Посмотреть проекты</a>
+                                    <a class="link-calc link-calc--arrow js-order" href="#">Рассчитать стоимость строительства</a>
+                                </div>
+                            </div>
+
+                        </div>
+                            <!-- / карточка товара -->
+                    </div>
+
+                    <div class="net__elem">
+                             <!-- карточка товара -->
+                        <div class="card">
+
+                            <div class="card__img-box labls">
+                                <a href="#">
+                                    <div class="card__img">
+                                        <img src="images/house/house-2.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+
+                                <div class="card__labls labls__box">
+                                    <a href="#">
+                                        <div class="labls__el">Газобетон</div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="labls__el">Керамические блоки</div>
+                                    </a>
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Газосиликат</div>
+                                    </a>
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Керамзитобетон</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card__box">
+                                <div class="card__name">
+                                    <a href="#">
+                                        <p>Кирпичные дома</p>
+                                    </a>
+                                </div>
+                                <p class="card__price">от <span>00 000</span>  руб/м2</p>
+                                <div class="card__link">
+                                    <a class="link-btn" href="#">Посмотреть проекты</a>
+                                    <a class="link-calc link-calc--arrow js-order" href="#">Рассчитать стоимость строительства</a>
+                                </div>
+                            </div>
+
+                        </div>
+                            <!-- / карточка товара -->
+                    </div>
+
+                    <div class="net__elem">
+                             <!-- карточка товара -->
+                        <div class="card">
+
+                            <div class="card__img-box labls">
+                                <a href="#">
+                                    <div class="card__img">
+                                        <img src="images/house/house-3.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+
+                                <div class="card__labls labls__box">
+                                    <a href="#">
+                                        <div class="labls__el">Клееный брус</div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="labls__el">Профилированный брус</div>
+                                    </a>
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Двойной брус</div>
+                                    </a>
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Термобрус</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card__box">
+                                <div class="card__name">
+                                    <a href="#">
+                                        <p>Кирпичные дома</p>
+                                    </a>
+                                </div>
+                                <p class="card__price">от <span>00 000</span>  руб/м2</p>
+                                <div class="card__link">
+                                    <a class="link-btn" href="#">Посмотреть проекты</a>
+                                    <a class="link-calc link-calc--arrow js-order" href="#">Рассчитать стоимость строительства</a>
+                                </div>
+                            </div>
+
+                        </div>
+                            <!-- / карточка товара -->
+                    </div>
+
+                    <div class="net__elem">
+                             <!-- карточка товара -->
+                        <div class="card">
+
+                            <div class="card__img-box labls">
+                                <a href="#">
+                                    <div class="card__img">
+                                        <img src="images/house/house-4.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+
+                                <div class="card__labls labls__box">
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Оцилендрованное</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card__box">
+                                <div class="card__name">
+                                    <a href="#">
+                                        <p>Кирпичные дома</p>
+                                    </a>
+                                </div>
+                                <p class="card__price">от <span>00 000</span>  руб/м2</p>
+                                <div class="card__link">
+                                    <a class="link-btn" href="#">Посмотреть проекты</a>
+                                    <a class="link-calc link-calc--arrow js-order" href="#">Рассчитать стоимость строительства</a>
+                                </div>
+                            </div>
+
+                        </div>
+                            <!-- / карточка товара -->
+                    </div>
+
+                    <div class="net__elem">
+                             <!-- карточка товара -->
+                        <div class="card">
+
+                            <div class="card__img-box labls">
+                                <a href="#">
+                                    <div class="card__img">
+                                        <img src="images/house/house-5.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+
+                                <div class="card__labls labls__box">
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Каркасные</div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="labls__el">SIP - панели</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card__box">
+                                <div class="card__name">
+                                    <a href="#">
+                                        <p>Кирпичные дома</p>
+                                    </a>
+                                </div>
+                                <p class="card__price">от <span>00 000</span>  руб/м2</p>
+                                <div class="card__link">
+                                    <a class="link-btn" href="#">Посмотреть проекты</a>
+                                    <a class="link-calc link-calc--arrow js-order" href="#">Рассчитать стоимость строительства</a>
+                                </div>
+                            </div>
+
+                        </div>
+                            <!-- / карточка товара -->
+                    </div>
+
+                    <div class="net__elem">
+                            <!-- карточка товара -->
+                        <div class="card">
+
+                            <div class="card__img-box labls">
+                                <a href="#">
+                                    <div class="card__img">
+                                        <img src="images/house/house-6.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+
+                                <div class="card__labls labls__box">
+                                    
+                                    <a href="#">
+                                        <div class="labls__el">Клееный брус</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card__box">
+                                <div class="card__name">
+                                    <a href="#">
+                                        <p>Кирпичные дома</p>
+                                    </a>
+                                </div>
+                                <p class="card__price">от <span>00 000</span>  руб/м2</p>
+                                <div class="card__link">
+                                    <a class="link-btn" href="#">Посмотреть проекты</a>
+                                    <a class="link-calc link-calc--arrow js-order" href="#">Рассчитать стоимость строительства</a>
+                                </div>
+                            </div>
+
+                        </div>
+                            <!-- / карточка товара -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / examples -->
+
+        <!-- popular -->
+
+        <section class="popular">
+            <div class="container">
+
+                <div class="labls labls--hidden labls--static js-labls-more">
+                    <div class="labls__box">
+                        <div class="labls__el">Арболит</div>
+                        <div class="labls__el">Газобетон</div>
+                        <div class="labls__el">Клееный брус</div>
+                        <div class="labls__el">Каркасные</div>
+                        <div class="labls__el">С террасой</div>
+                        <div class="labls__el">С сауной</div>
+                        <div class="labls__el">ХАЙ-ТЕК</div>
+                        <div class="labls__el">ХАЙ-ТЕК</div>
+                        <div class="labls__el">ХАЙ-ТЕК</div>
+                        <div class="labls__el">ХАЙ-ТЕК</div>
+                        <div class="labls__el">ХАЙ-ТЕК</div>
+                    </div>
+                    <button class="btn-more js-more">Показать еще</button> 
+                </div>
+
+                <div class="catalog">
+                    <div class="catalog__left catalog-filter">
+                        <div class="filter-btn">
+                            <button class="filter-btn__close">
+                                <svg width="29" height="24" viewBox="0 0 29 24">
+                                    <use xlink:href="svg-sprite/svg-sprite.svg#filter-arrow"></use>
+                                </svg>
+                            </button>
+                            <h3>Фильтры</h3>
+                            <button class="filter-btn__open">
+                                <svg width="26" height="23" viewBox="0 0 26 23">
+                                    <use xlink:href="svg-sprite/svg-sprite.svg#filter-icon"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <form class="filter">
+
+                            <div class="filter__el">
+                                <h4>Материал:</h4>
+
+                                <div class="filter__checkbox" data-simplebar>
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Каменные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из блоков</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из газобетона</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из керамических блоков</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из керамзитобетонных блоков</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из газоселикатных блоков</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из теплоблоков</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из полистерол бетона</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Дома из арболита</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Монолитные дома</span> 
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="filter__el">
+                                <h4>Стоимость строительства, млн.руб</h4>
+
+                                <div class="filter__range filter-range">
+
+                                    <!-- <input class="filter-range__input"  type="number" min="0.1" max="99.99" id="input-1">
+
+                                    <input class="filter-range__input"  type="number" min="0.1" max="99.99" id="input-2"> -->
+
+                                    <div class="filter-range__fake" id="range-price"></div>
+                                </div>
+                            </div>
+
+                            <div class="filter__el">
+                                <h4>Площадь, кв.м</h4>
+
+                                <div class="filter__range filter-range">
+
+                                    <!-- <input class="filter-range__input"  type="number" min="0.1" max="99.99" id="input-1">
+
+                                    <input class="filter-range__input"  type="number" min="0.1" max="99.99" id="input-2"> -->
+
+                                    <div class="filter-range__fake" id="range-square"></div>
+                                </div>
+                            </div>
+
+                            <div class="filter__el">
+                                <h4>Площадь, кв.м</h4>
+
+                                <div class="filter__long filter-long">
+
+                                    <div class="filter-long__box">
+                                        <label for="long">Длина:</label>
+                                        <input class="filter-long__input" name="long"  type="number" min="1" max="9999">
+                                    </div>
+
+                                    <div class="filter-long__box">
+                                        <label for="width">Ширина:</label>
+                                        <input class="filter-long__input" name="width"  type="number" min="1" max="9999">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="filter__el">
+                                <h4>Спален:</h4>
+
+                                <div class="filter__checkbox" data-simplebar>
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">1</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">2</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">3</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">4</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">5</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">6</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">7</span> 
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <div class="filter__el">
+                                <h4>Этажность:</h4>
+
+                                <div class="filter__checkbox" data-simplebar>
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Одноэтажные</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Двухэтажные</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Трехэтажные</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С мансардой</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С цокольным этажом</span> 
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <div class="filter__el">
+                                <h4>Особенности:</h4>
+
+                                <div class="filter__checkbox" data-simplebar>
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">Со вторым светом</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С эркером</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С террасой</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С сауной</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С подвалом</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С панорамными окнами</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С котельной</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С гаражом</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С верандой</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С бассейном</span> 
+                                    </label>
+
+                                    <label class="filter-check">
+                                        <input type="checkbox" name="material">
+                                        <span class="filter-check__fake"></span>
+                                        <span class="filter-check__text">С балконом</span> 
+                                    </label>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="catalog__right net">
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="net__elem net__elem--3">
+    
+                            <div class="card-popular">
+                                <a href="#">
+                                    <div class="card-popular__img">
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома">
+                                    </div>
+                                </a>
+    
+                                <div class="card-popular__box">
+                                    <a href="#">
+                                        <p class="card-popular__name">Название проекта</p>
+                                    </a>
+                                    <p class="card-popular__type">
+                                        Тип дома:<a href="#"> Кирпичный</a>
+                                    </p>
+                                    <div class="card-popular__prop house-prop">
+                                        <div data-prop="size">Размеры:<span> 10X10</span></div>
+                                        <div data-prop="square">Площадь:<span> 100 м²</span></div>
+                                        <div data-prop="bed">Спален:<span> 3</span></div>
+                                        <div data-prop="room">Комнат:<span>4</span></div>
+                                    </div>
+                                    <p class="card-popular__price">Цена от 0 000 000 руб</p>
+                                    <a class="link-btn" href="#">Смотреть проект</a>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button class="btn-pagin btn-pagin--blue">1</button>
+                    <button class="btn-pagin">2</button>
+                    <button class="btn-pagin">3</button>
+                    <button class="btn-pagin">4</button>
+                    <button class="btn-pagin">5</button>
+                </div>
+                
+            </div>
+        </section>
+        <!-- / popular -->
+
+        <!-- selections -->
+        <secrion class="selections">
+            <div class="container">
+                <div class="selections__box">
+                    <h2 class="subtitle subtitle--small">
+                        Популярные подборки проектов
+                    </h2>
+
+                    <div class="labls labls--static">
+                        <div class="labls__box">
+                            <div class="labls__el labls__el--blue">Эксклюзивные дома</div>
+                            <div class="labls__el">6х7</div>
+                            <div class="labls__el">6х10</div>
+                            <div class="labls__el">7х10</div>
+                            <div class="labls__el">20х20</div>
+                            <div class="labls__el">6х12</div>
+                            <div class="labls__el">Бюджетные</div>
+                            <div class="labls__el">Элитные</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="selections__box">
+                    <h2 class="subtitle subtitle--small">
+                        У нас заказывают дома
+                    </h2>
+
+                    <div class="labls labls--static">
+                        <div class="labls__box">
+                            <div class="labls__el">С 2-мя спальнями</div>
+                            <div class="labls__el">В стиле лофт</div>
+                            <div class="labls__el">С 3-мя спальнями</div>
+                            <div class="labls__el">С большим окнами</div>
+                            <div class="labls__el labls__el--blue">В американском стиле</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </secrion>
+        <!-- / selections -->
+
+        <!-- used -->
+        <div class="used">
+            <div class="container">
+
+                <div class="used__box">
+                    <h2 class="subtitle subtitle--left">200 домов сдали в эксплуатацию за прошлый год</h2>
+                    <a href="#" class="link-btn link-btn--icon">Карта объектов</a>
+                </div>
+                
+                <div class="used__wrap">
+
+                    <div class="used__slider">
+
+                        <div class="used-slider swiper">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+
+                                    <div class="used-house">
+                                        <a href="images/house/hous-popular.jpg" class="glightbox" data-gallery="gallery1">
+                                            <img src="images/house/hous-popular.jpg" alt="Фото дома" />
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <div class="used-house">
+                                        <a href="images/house/hous-popular.jpg" class="glightbox" data-gallery="gallery1">
+                                            <img src="images/house/hous-popular.jpg" alt="Фото дома" />
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a href="images/house/hous-popular.jpg" class="glightbox2" >
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома" />
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a href="images/house/hous-popular.jpg" class="glightbox2" >
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома" />
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a href="images/house/hous-popular.jpg" class="glightbox2" >
+                                        <img src="images/house/hous-popular.jpg" alt="Фото дома" />
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                        <button class="used__btn-prev btn-circle btn-circle--prev">
+                            <svg width="23" height="22" viewBox="0 0 23 22">
+                                <use xlink:href="svg-sprite/svg-sprite.svg#arrow-slider"></use>
+                            </svg>
+                        </button>
+                        <button class="used__btn-next btn-circle btn-circle--next">
+                            <svg width="23" height="22" viewBox="0 0 23 22">
+                                <use xlink:href="svg-sprite/svg-sprite.svg#arrow-slider"></use>
+                            </svg>
+                        </button>
+
+                        <div class="used__mini swiper">
+                            <div class="swiper-wrapper">
+        
+                                <div class="swiper-slide">
+                                    <div class="used__mini-img">
+                                        <img src="images/house/hous-popular.jpg" alt="фото дома">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="used__mini-img">
+                                        <img src="images/house/hous-popular.jpg" alt="фото дома">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="used__mini-img">
+                                        <img src="images/house/hous-popular.jpg" alt="фото дома">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="used__mini-img">
+                                        <img src="images/house/hous-popular.jpg" alt="фото дома">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="used__mini-img">
+                                        <img src="images/house/hous-popular.jpg" alt="фото дома">
+                                    </div>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                    </div>
+
+                    <div class="used__text">
+                        <h3>Строительство одноэтажного дома из кирпича, 100 м²</h3>
+                        <p>Построили под ключ за 180 дней</p>
+                        <p>от <span>00 000</span>руб/м2</p>
+                        <div class="used__in">
+                            <h3>В стоимость вошли работа и материалы:</h3>
+                            <p>А также базовые сценарии поведения пользователей, превозмогая 
+                                сложившуюся непростую экономическую ситуацию, описаны максимально подробно.
+                            </p>
+                            <button class="btn-more">Смотреть все</button>
+                        </div>
+                        <div class="used__review">
+                            <h3>Отзыв заказчика</h3>
+                            <div class="review">
+                                <div class="review__photo">
+                                    <img src="images/review.jpg" alt="Фото заказчика">
+                                </div>
+                                <div class="review__text">
+                                    <p>Являясь всего лишь частью общей картины, элементы политического 
+                                        процесса освещают чрезвычайно интересные особенности картины в целом, 
+                                        однако конкретные выводы, разумеется, объективно рассмотрены 
+                                        соответствующими инстанциями. Внезапно, интерактивные прототипы обнародованы.
+                                    </p>
+                                    
+                                    <div class="review__video">
+                                        <a href="files/video/video-1.mp4" class="glightbox" data-gallery="gallery2">
+                                            <img src="images/house/house-1.jpg" alt="image" />
+                                          </a>
+                                        <!-- <video controls class="video-file" width="100%" height="100%">
+                                        <source src="files/video/video-1.mp4" type='video/mp4'>
+                                        </video> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="link-btn link-btn--long js-call">Хочу так же</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- / used -->
+
+        <!-- boss -->
+        <div class="boss">
+            <div class="container">
+
+                <div class="boss__text">
+                    <p>
+                        Главная ценность нашей компании - это наши клиенты и их желание иметь собственный дом, 
+                        поэтому Миссия нашей компании сделать путь клиента от мечты о доме до ее воплощения максимально 
+                        простым! Мы любим свое дело, ценим Ваши пожелания и обязательно построим Вам Дом вашей мечты. 
+                        Я лично гарантирую качество наших домов и даю официальную гарантию, прописанную в договоре, 8 лет!
+                    </p>
+                </div>
+
+                <div class="boss__title">
+                    <h3>Обращение руководителя</h3>
+                </div>
+
+                <div class="boss__wrap">
+                    <div class="boss__video">
+                        <!-- <img src="images/boss.jpg" alt="img"> -->
+                        <iframe 
+                            width = "100%" height = "100%" src="https://www.youtube.com/embed/kroO5VE7X3w" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p>Игорь Балашников - основатель</p>
+                </div>
+                <div class="boss__btn">
+                    <button class="link-btn link-btn--long js-call">Записаться на выставку домов</button>
+                </div>
+            </div>
+        </div>
+        <!-- / boss -->
+
+        <!-- statistics -->
+        <section class="statistics" style="background-image: url(images/statistics.jpg);">
+            <div class="container">
+                <h2 class="subtitle subtitle--white">ТопДом в цифрах</h2>
+                <p class="statistics__text">Накопленный опыт позволяет нам строить одни из лучших кирпичных домов в России</p>
+                <ul class="statistic__list">
+                    <li>
+                        <p>10</p>
+                        <span>Лет мы занимаемся строительством домов</span>
+                    </li>
+                    <li>
+                        <p>500</p>
+                        <span>Коттеджей построили за 10 лет</span>
+                    </li>
+                    <li>
+                        <p>100</p>
+                        <span>Домов в нашем коттеджном посёлке</span>
+                    </li>
+                    <li>
+                        <p>80</p>
+                        <span>Домов мы построили за последний год</span>
+                    </li>
+                    <li>
+                        <p>35 000</p>
+                        <span>Стартовая цена за 1 кв. м. дома</span>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <!-- / statistics -->
+
+        <!-- subscription -->
+        <section class="subscription">
+            <div class="container">
+                <h3>Подпишись и узнавайте первыми о специальных предложениях</h3>
+                <form action="#" class="subscription__form">
+
+                    <div class="input-box">
+                        <span>* Заполните поле</span>
+                        <input type="email" name="email" placeholder="Введите ваш e-mail" required maxlength="40">
+                    </div>
+
+                    <input class="link-btn js-end" type="submit" value="Подписаться">
+                    <!-- по клику добавит класс open на модальное окно modal-end -->
+                </form>
+            </div>
+        </section>
+        <!-- / subscription -->
+
+        <!-- contacts -->
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__blue">
+
+                    <h2>Мы на карте</h2>
+                    <h3 class="contacts__hidden">Адрес офиса:</h3>
+
+                    <div class="contact">
+
+                        <div class="contact__svg">
+                            <svg width="16" height="22" viewBox="0 0 16 22">
+                                <use xlink:href="svg-sprite/svg-sprite.svg#contact-1"></use>
+                            </svg>
+                        </div>
+                        
+                        <div class="contact__text">
+                            <p>Москва, Пресненская набережная, 8с1
+                                Выставка домов "Малоэтажная страна", офис продаж ТопДом
+                            </p>
+                        </div>
+                        
+
+                    </div>
+
+                    <h3>Контакты</h3>
+
+                    <div class="contact">
+
+                        <div class="contact__svg">
+                            <svg width="19" height="19" viewBox="0 0 19 19">
+                                <use xlink:href="svg-sprite/svg-sprite.svg#contact-2"></use>
+                            </svg>
+                        </div>
+                        
+                        <div class="contact__text">
+                            <a href="tel:88006000787">8 800 600 0787</a>
+                            <span>Без выходных: 8:00 - 21:00</span>
+                            <a class="contact__callme js-call" href="#">Позвоните мне</a>
+                        </div>
+
+                    </div>
+
+                    <div class="contact">
+
+                        <div class="contact__svg">
+                            <svg width="19" height="15" viewBox="0 0 19 15">
+                                <use xlink:href="svg-sprite/svg-sprite.svg#contact-3"></use>
+                            </svg>
+                        </div>
+                        
+                        <div class="contact__text">
+                            <a href="mailto:topdom.msk@mail.ru">topdom.msk@mail.ru</a>
+                        </div>
+                        
+
+                    </div>
+
+                    <h3>Мы онлайн</h3>
+
+                    <div class="contacts__social">
+                        <a href="#" target="_blank">
+                            <svg width="36" height="36" viewBox="0 0 36 36">
+                                <use xlink:href="svg-sprite/svg-sprite.svg#social-1"></use>
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank">
+                            <svg width="38" height="38" viewBox="0 0 38 38">
+                                <use xlink:href="svg-sprite/svg-sprite.svg#social-2"></use>
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="contacs__map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A84dcb984d426cb31ff5a2d956fb2d26b199f026edb5c4da1ac98006cdbae5a16&amp;source=constructor" 
+                        width="100%" height="315" frameborder="0">
+                    </iframe>
+                </div>
+
+                <div class="contacs__photo">
+                    <div class="contacts__img">
+                        <img src="images/contacts-1.jpg" alt="Фото офиса ТопДом">
+                    </div>
+                    <div class="contacts__img contacts__img--label">
+                        <img src="images/contacts-2.jpg" alt="Фото офиса ТопДом">
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- / contacts -->
+
+        <!-- help -->
+        <section class="help">
+            <div class="container">
+
+                <div class="help__box">
+                    <h2 class="subtitle">Поможем подобрать земельный участок</h2>
+                    <p>
+                        Мы осуществляем строительство не только загородных домов под ключ (цены смотрите на сайте), но и далее список что делаем.
+                    </p>
+                    <p>
+                        В настоящее время мы накопили огромный опыт работы среди всех строительных компаний на рынке малоэтажного строительства, 
+                        у нас сложился сплоченный квалифицированный коллектив и рабочие бригады, мы имеем ряд надежных партнеров по отвельным видам 
+                        работ. Доверяя нам - доверяйте профессионалам!
+                    </p>
+                </div>
+
+                <div class="help__form-box">
+                    <h3>Оставьте свой номер телефона</h3>
+                    <p>И наш менеджер вам перезвонит!</p>
+
+                    <form action="#" class="help__form">
+
+                        <div class="input-box">
+                            <span>* Заполните поле</span>
+                            <input type="text" name="name" placeholder="Ваше имя" required maxlength="25">
+                        </div>
+
+                        <div class="input-box">
+                            <span>* Заполните поле</span>
+                            <input class="tell-input" type="phone" name="phone" placeholder="Ваш телефон" required>
+                        </div>
+
+                        <p class="help__form-city">Выберите ваш город</p>
+
+                        <div class="input-box input-box--city">
+                            <select name="city" id="#" class="input-box__select">
+                                <option value="Город">Казань</option>
+                                <option value="Город">Город</option>
+                                <option value="Город">Город</option>
+                                <option value="Город">Город</option>
+                            </select>
+                        </div>
+
+                        <p class="politic">Я соглашаюсь с <a href="#">политикой конфиденциальности</a></p>
+                        
+                        <input class="link-btn link-btn--long" type="submit" value="Заказать обратный звонок">
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- / help -->
+
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__list">
+            <div class="container">
+                <ul class="footer__list-top">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Проекты</a></li>
+                    <li><a href="#">Портфолио и отзывы</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Технологии</a></li>
+                    <li><a href="#">Технологии</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Статьи</a></li>
+                </ul>
+
+                <div class="footer__list-bot">
+                    <div class="footer__list-type">
+                        <h5>Каменные дома</h5>
+                        <ul>
+                            <li><a href="#">Дома из блоков</a></li>
+                            <li><a href="#">Арболит</a></li>
+                            <li><a href="#">Газобетон</a></li>
+                            <li><a href="#">Керамические</a></li>
+                            <li><a href="#">Газоселикат</a></li>
+                            <li><a href="#">Пеноблок</a></li>
+                            <li><a href="#">Керамобетон</a></li>
+                            <li><a href="#">Полистеролбетон</a></li>
+                            <li><a href="#">Теплоблок</a></li>
+                            <li><a href="#">Дома из кирпича</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__list-type">
+                        <h5>Деревянные дома</h5>
+                        <ul>
+                            <li><a href="#">Клееный брус</a></li>
+                            <li><a href="#">Профилированный брус</a></li>
+                            <li><a href="#">Двойной брус</a></li>
+                            <li><a href="#">Термобрус</a></li>
+                            <li><a href="#">Дома из ацилиндрованного бревна</a></li>
+                            <li><a href="#">Дома из рубленного бревна</a></li>
+                            <li><a href="#">Дома из лафета</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__list-type">
+                        <h5>Быстровоспроизводимые</h5>
+                        <ul>
+                            <li><a href="#">Каркасные</a></li>
+                            <li><a href="#">SIP - панели</a></li>
+                            <li><a href="#">Комбинированные</a></li>
+                            <li><a href="#">Монолитные</a></li>
+                            <li><a href="#">Несъемная опалубка</a></li>
+                            <li><a href="#">Бетон</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__list-type">
+                        <h5>Вид дома</h5>
+                        <ul>
+                            <li><a href="#">Коттедж</a></li>
+                            <li><a href="#">Дачный дом</a></li>
+                            <li><a href="#">Двойной брус</a></li>
+                            <li><a href="#">Дуплекс</a></li>
+                            <li><a href="#">Гостевой</a></li>
+                            <li><a href="#">Таунхаус</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__list-type">
+                        <h5>По площади</h5>
+                        <ul>
+                            <li><a href="#">до 100м2</a></li>
+                            <li><a href="#">120м2</a></li>
+                            <li><a href="#">до 150м2</a></li>
+                            <li><a href="#">до 100 до 200м2</a></li>
+                            <li><a href="#">до 220м2 до 320м2</a></li>
+                            <li><a href="#">до 320м2 до 500м2</a></li>
+                            <li><a href="#">от 500м2</a></li>
+                            <li><a href="#">до 1000м2</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__list-type footer__list-type--flex">
+                        <h5>Габариты</h5>
+                        <ul>
+                            <li><a href="#">6х6</a></li>
+                            <li><a href="#">6х8</a></li>
+                            <li><a href="#">6х9</a></li>
+                            <li><a href="#">7х9</a></li>
+                            <li><a href="#">8х8</a></li>
+                            <li><a href="#">8х10</a></li>
+                            <li><a href="#">9х9</a></li>
+                            <li><a href="#">9х11</a></li>
+                            <li><a href="#">9х12</a></li>
+                            <li><a href="#">10х10</a></li>
+                            <li><a href="#">10х12</a></li>
+                            <li><a href="#">11х11</a></li>
+                            <li><a href="#">11х12</a></li>
+                            <li><a href="#">12х12</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__logo">
+                <div class="logo logo--big">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="Логотип строительной компании ТопДом.рф">
+                    </a>
+                </div>
+                <span>© 2022 Компания “ТопДом”</span>
+            </div>
+
+            <div class="footer__text">
+                <p>
+                    Сайт использует исключительно информационный характер 
+                    и не является публичной офертой, наблюдаемой положениями ГК РФ. Для получения 
+                    подробной информации о наличии, видах, характеристиках и доходах в офисах продаж. 
+                </p>
+
+                <a class="politic-link" href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <!--  / footer -->
+</div>
+
+<!-- modall-call -->
+<div class="modal modal-call">
+    <div class="modal-call__box">
+        <div class="modal-call__title modal-title">
+            <h3>Оставьте свой номер телефона</h3>
+            <button class="modal-call__btn modal-title__btn"></button>
+        </div>
+        <p>И наш менеджер вам перезвонит!</p>
+
+        <form action="#" class="modal-call__form">
+
+            <div class="input-box">
+                <span>* Заполните поле</span>
+                <input type="text" name="name" placeholder="Ваше имя" required maxlength="25">
+            </div>
+
+            <div class="input-box">
+                <span>* Заполните поле</span>
+                <input class="tell-input" type="phone" name="phone" placeholder="Ваш телефон" required>
+            </div>
+
+            <div class="input-box input-box--city">
+                <select name="city" id="#" class="input-box__select">
+                    <option value="Город">Казань</option>
+                    <option value="Город">Город</option>
+                    <option value="Город">Город</option>
+                    <option value="Город">Город</option>
+                </select>
+            </div>
+
+            <div class="input-box input-box--check">
+                <input class="input-box__custom-check" type="checkbox" name="politic">
+                <label class="input-box__politic" for="politic"> Я согласен с <a href="#">политикой конфиденциальности</a> </label>
+            </div>
+            <input class="link-btn link-btn--long" type="submit" value="Получить">
+        </form>
+    </div>
+    
+</div>
+<!-- / modall-call -->
+
+<!-- modal-order -->
+<div class="modal modal-order" data-simplebar>
+    <div class="modal-order__box">
+        <div class=" modal-title">
+            <h3>Узнайте стоимость вашего дома</h3>
+            <button class="modal-title__btn modal-order__btn"></button>
+        </div>
+        <form action="#" class="order">
+
+            <!-- <div class="order__step1">
+                <p>Скольки этажный дом Вы бы хотели?</p>
+                
+                <div class="order__step1-box">
+                    <label class="label-box">
+                        
+                        <div class="label-box__img">
+                            <img src="images/house/house-2.jpg" alt="фото одноэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="floor">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Одноэтажный</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="floor">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Двухэтажный</span>
+                    </label>
+                </div>
+            </div> -->
+
+            <!-- <div class="order__step2">
+                <p>Какой площади планируете строить дом?</p>
+
+                <div class="order__step2-box">
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">от 80 м<span class="label-box__name-small">2</span> до 100 м<span class="label-box__name-small">2</span></span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">от 100 м<span class="label-box__name-small">2</span> до 130 м<span class="label-box__name-small">2</span></span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">от 130 м<span class="label-box__name-small">2</span> до 160 м<span class="label-box__name-small">2</span></span>
+                    </label>
+
+                    <label class="label-box">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">от 160 м<span class="label-box__name-small">2</span> до 200 м<span class="label-box__name-small">2</span></span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Более 200 м<span class="label-box__name-small">2</span></span>
+                    </label>
+                </div>
+            </div> -->
+
+            <!-- <div class="order__step3">
+                <p>Сколько спальных комнат Вам нужно?</p>
+
+                <div class="order__step3-img">
+                    <div class="order__step3-box">
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">2 спальные комнаты</span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">3 спальные комнаты</span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">4 спальные комнаты</span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Больше 4 спальных комнат</span>
+                        </label>
+                    </div>
+                    <div class="order__img">
+                        <img src="images/house/house-5.jpg" alt="фото спальной комнаты">
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="order__step4">
+                <p>Нужен ли Вам участок?</p>
+
+                <div class="order__step3-img">
+                    <div class="order__step3-box">
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Нет, есть участок</span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Нет, я сам найду участок</span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Да, нужно подобрать участок</span>
+                        </label>
+
+                        <label class="label-box label-box--line">
+                            <input class="label-box__checkbox" type="radio" name="bed">
+                            <span class="label-box__input"></span>
+                            <span class="label-box__name">Мне нужен готовый дом на участке</span>
+                        </label>
+                    </div>
+                    <div class="order__img">
+                        <img src="images/house/house-5.jpg" alt="фото спальной комнаты">
+                    </div>
+                </div>
+            </div> -->
+            
+            <!-- <div class="order__step5">
+                <p>Когда Вы готовы начать строительство?</p>
+
+                <div class="order__step5-box">
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">В течение 1 месяца</span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name"> В течении 3-х месяцев</span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">В течение полугода</span>
+                    </label>
+
+                    <label class="label-box label-box--line">
+                        <input class="label-box__checkbox" type="radio" name="square">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">В следующем году</span>
+                    </label>
+
+                </div>
+            </div> -->
+
+            <!-- <div class="order__step6">
+                <p>В каком городе планируете строительство?</p>
+
+                <div class="input-box input-box--city">
+                    <select name="city" id="#" class="input-box__select">
+                        <option value="Казань">Казань</option>
+                        <option value="Москва">Москва</option>
+                        <option value="Санкт-Петербург">Санкт-Петербург</option>
+                        <option value="другой город в Татарстане">другой город в Татарстане</option>
+                        <option value="другой город в Московской области">другой город в Московской области</option>
+                        <option value="другой город в Ленинградской области">другой город в Ленинградской области</option>
+                    </select>
+                </div>
+            </div> -->
+            
+            <!-- <div class="order__step7">
+                <p>Скольки этажный дом Вы бы хотели?</p>
+                
+                <div class="order__step7-box">
+                    <label class="label-box">
+                        
+                        <div class="label-box__img">
+                            <img src="images/house/house-2.jpg" alt="фото одноэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 1</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 2</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 3</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 4</span>
+                    </label>
+
+                    <label class="label-box">
+                        <div class="label-box__img">
+                            <img src="images/house/house-3.jpg" alt="фото двухэтажного дома">
+                        </div>
+                        <input class="label-box__checkbox" type="radio" name="gift">
+                        <span class="label-box__input"></span>
+                        <span class="label-box__name">Подарок 5</span>
+                    </label>
+                </div>
+            </div> -->
+
+            <div class="order__step-end">
+                <div class="order__step-end-text">
+                    <p>
+                        Под Ваши критерии подходит 27 проектов домов. Оставьте заявку для подробной консультации и записи
+                        на просмотр домов и участков!
+                    </p>
+                    <span>
+                        Наш менеджер свяжется с Вами, чтобы ответить на ваши вопросы, рассказать подробнее о предложении
+                        и подтвердить запись на просмотр готовых домов которые вам подходят
+                    </span>
+                </div>
+                <div class="order__step-end-order">
+
+                    <div class="input-box">
+                        <span>* Заполните поле</span>
+                        <input class="tell-input" type="phone" name="phone" placeholder="Ваш телефон" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span>* Заполните поле</span>
+                        <input type="text" name="name" placeholder="Ваше имя" required maxlength="25">
+                    </div>
+        
+                    <div class="input-box">
+                        <span>* Заполните поле</span>
+                        <input type="email" name="email" placeholder="Введите ваш e-mail" required maxlength="40">
+                    </div>
+
+                    <input class="link-btn link-btn--long" type="submit" value="Оставить заявку">
+                </div>
+            </div>
+
+            <div class="order__box">
+                <div class="order__steps">
+                    <p>Готово: <span class="order__steps-percent">0</span> <span>%</span></p>
+                    <div class="order__line">
+                        <span class="order__line-fill"></span>
+                    </div>
+                </div>
+                <div class="order__btns">
+                    <button class="btn"></button>
+                    <button class="btn btn--long">Далее</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!--/ modal-order -->
+
+<!-- modal-end -->
+<div class="modal modal-end">
+    <div class="modal-end__box">
+        <div class="modal-title">
+            <div class="modal-title__main">
+                <span>email@email.com</span>
+                <h3>Благодарим Вас за внимание к компании ТОПДОМ</h3>
+            </div>
+            <button class="modal-title__btn modal-end__btn"></button>
+        </div>
+        <p>
+            Ваше обращение №<span class="modal-title--bold">11111</span> по теме №Подписка на акции и специальные предложения" <span class="modal-title--green">успешно доставлено! </span> 
+        </p>
+        <p>
+            Мы свяжемся с Вами по почте <span class="modal-title--bold">email@email.com</span> в ближайшее время и будем рады предоставить всю необходимую информацию. 
+        </p>
+        <p>
+            А пока Вы можете познакомиться с нашей деятельносью через соцсети:
+        </p>
+        <div class="modal__social">
+            <a href="#" target="_blank">
+                <svg width="36" height="36" viewBox="0 0 36 36">
+                    <use xlink:href="svg-sprite/svg-sprite.svg#social-1"></use>
+                </svg>
+            </a>
+            <a href="#" target="_blank">
+                <svg width="38" height="38" viewBox="0 0 38 38">
+                    <use xlink:href="svg-sprite/svg-sprite.svg#social-2"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+<!--/ modal-end -->
+
+<!-- modal-review -->
+<div class="modal modal-review">
+    <div class="modal-review__box">
+        <div class="modal-title">
+            <div class="modal-title__main">
+                <h3>Будем рады вашему отзыву</h3>
+            </div>
+            <button class="modal-title__btn modal-review__btn"></button>
+        </div>
+        <form action="#" class="review-form">
+            <div class="input-box">
+                <span>* Заполните поле</span>
+                <label class="input-box__comment" for="comment">Комментарии</label>
+                <textarea name="comment" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="input-file">
+                <label for="myfile" class="label">Прикрепить файлы</label>
+                <input type="file" class="my" id="myfile" name="myfile" multiple>
+            </div>
+
+            <input class="link-btn link-btn--long" type="submit" value="Оставить комментарий">
+            
+        </form>
+    </div>
+</div>
+<!-- / modal-review -->
+
+
+
+        <!-- Scripts -->
+        <script src="scripts/script.min.js"></script>
+        <!-- / Scripts -->
+
+    </body>
+    <!-- / Body -->
+
+</html>
